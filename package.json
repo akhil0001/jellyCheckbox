@@ -1,7 +1,7 @@
 {
-  "name": "jellycheckbox",
+  "name": "jelly-checkbox",
   "version": "0.0.1",
-  "description": "Stencil Component Starter",
+  "description": "An elegant,customizable and jellified checkbox built as web component using Stencil",
   "module": "dist/esm/index.js",
   "main": "dist/index.js",
   "unpkg": "dist/ionic.js",
@@ -20,5 +20,9 @@
   "devDependencies": {
     "@stencil/core": "~0.16.2"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akhil0001/jellyCheckbox.git"
+},
   "license": "MIT"
 }
