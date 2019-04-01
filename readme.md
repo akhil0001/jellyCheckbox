@@ -3,7 +3,8 @@
 # jelly-checkbox
 
 An elegant,customizable and jellified checkbox built as web component using [Stencil](https://stenciljs.com/)
-![jelly-checkbox](https://github.com/akhil0001/jellyCheckbox/tree/master/images/demo.gif)
+
+![jelly-checkbox](https://raw.githubusercontent.com/akhil0001/jellyCheckbox/master/images/demo.gif)
 
 ## Try Now 
 
