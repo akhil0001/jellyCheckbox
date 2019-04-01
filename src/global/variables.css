@@ -1,0 +1,11 @@
+/**
+ * @prop --checked-bgcolor: Background of the checkbox when the state of the checkbox is checked or indeterminate
+ * @prop --border-color: Border color of the checkbox
+ * @prop --tick-color: color of the tick mark when the state of the checkbox is checked or indeterminate
+ */
+
+:root{
+    --checked-bgcolor:#673ab7;
+    --border-color:#b0b0b0;
+    --tick-color:#ffffff;
+}

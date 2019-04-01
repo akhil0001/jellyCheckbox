@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0">
+  <title>Stencil Component Starter</title>
+  <script src="/build/mycomponent.js"></script>
+
+</head>
+
+<body>
+<div class="container">
+    <jelly-checkbox id="jc1" label="Here I am" checked='true'></jelly-checkbox>
+    
+    <jelly-checkbox id="jc2" label="Rapture"></jelly-checkbox>
+    
+    <jelly-checkbox id="jc3" label="Old friends and Canyons"></jelly-checkbox>
+</div>
+  
+
+<script>
+  var jc3 = document.getElementById('jc3');
+  var jc2 = document.getElementById('jc2');
+  var jc1 = document.getElementById('jc1');
+  jc3.addEventListener('change', handleTheChange);
+  jc1.onchange = function(evObj)
+  {
+    console.log(jc2);
+    jc2.disabled = evObj.detail.value;
+  }
+
+  function handleTheChange(evObj) {
+    jc2.indeterminate = evObj.detail.value;
+  }
+
+</script>
+<style>
+  @import url('https://fonts.googleapis.com/css?family=Roboto');
+  body{
+    font-family: 'Roboto',sans-serif;
+  }
+  .container
+  {
+    display: flex;
+    flex-flow: column nowrap;
+  }
+  .container jelly-checkbox
+  {
+    flex: 1 1 auto;
+    padding: 10px;
+  }
+#jc1
+{
+  --checked-bgcolor:red;
+}
+#jc3
+{
+  --checked-bgcolor:green;
+}
+</style>
+</body>
+</html>
