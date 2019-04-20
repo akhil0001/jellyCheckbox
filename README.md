@@ -144,8 +144,8 @@ npm start
 # Todos
 
  - [x] Add Images to Readme
- - [ ] Publish to  npm
- - [ ] Publish to web component 
+ - [x] Publish to  npm
+ - [x] Publish to web component 
  - [ ] Write Unit test case 
  - [ ] Write contributing.md file
  - [ ] Form submit support
